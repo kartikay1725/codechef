@@ -1,14 +1,13 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] flex flex-col items-center justify-center text-center px-4">
       <div className="absolute top-6 left-6 flex items-center gap-2 text-xl font-semibold">
-        <Image width="10" height="10" src="/assets/logo.webp" alt="CodeChef BVCOE Logo" className="w-10 h-10" />
-        <span className="text-omegagray-9000 font-extrabold">CodeChef</span>
+        <span className="text-indigo-600 text-2xl">🤖</span>
+        <span className="text-gray-100 font-extrabold">CodeChef</span>
       </div>
 
       <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-6">
@@ -31,7 +30,7 @@ export default function HomePage() {
         <Link href="/register" className="mb-4">
         <Button
           variant="outline"
-          className="px-6 py-2 text-lg border-gray-300 text-gray-800 hover:bg-gray-100"
+          className="px-6 py-2 text-lg bg-gray-100 text-gray-800"
         >
           Register
         </Button>

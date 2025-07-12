@@ -3,14 +3,13 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
-import Image from "next/image";
 export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] flex items-center justify-center p-4">
       <Link href="/" className="mb-4">
             <div className="absolute top-6 left-6 flex items-center gap-2 text-xl font-semibold">
-              <Image width="10" height="10" src="/assets/logo.webp" alt="CodeChef BVCOE Logo" className="w-10 h-10" />
-              <span className="text-omegagray-900 font-extrabold">CodeChef</span>
+              <span className="text-indigo-600 text-2xl">🤖</span>
+              <span className="text-gray-100 font-extrabold">CodeChef</span>
             </div>
       </Link>
       <Card className="w-full max-w-md shadow-2xl border border-white/10 bg-white/5 backdrop-blur-sm rounded-2xl">
