@@ -2,11 +2,13 @@
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] flex flex-col items-center justify-center text-center px-4">
       <div className="absolute top-6 left-6 flex items-center gap-2 text-xl font-semibold">
-        <span className="text-indigo-600 text-2xl">🤖</span>
+        <Image width={40} height={40} src="/logo.webp" alt="CodeChef Logo" className="w-10 h-10" />
+        
         <span className="text-gray-100 font-extrabold">CodeChef</span>
       </div>
 
